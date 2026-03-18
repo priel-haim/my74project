@@ -1,0 +1,10 @@
+Change the Dinner Suggestion to New Menu with new tag and expose port
+based on lab-04, change the title Dinner Suggestion to New Menu Dinner Suggestion
+Docker run with new port 5001
+Set a new tag inmage 1.01
+Execute both Docker run and browse via google chrome
+
+http://localhost:5000
+Dinner Suggestion
+http://localhost:5001
+New Menu Dinner Suggestion
