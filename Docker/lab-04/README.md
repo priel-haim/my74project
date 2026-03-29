@@ -4,7 +4,7 @@
 py.exe app.py
 http://127.0.0.1:5000/
 ```
--Run yyyyyyyythe app with dockerfile
+-Run the app with dockerfile
 
 ```
 docker build -t dinner_flask_svc_app .
