@@ -1,4 +1,3 @@
-# Hands-On – Lab-02 Docker commands based on httpbin
 docker run --name http_error -d -p 8990:80 kennethreitz/httpbin
 http://localhost:8990/
 docker stop <container id>
@@ -21,6 +20,7 @@ docker ps
 docker tag 5872ce97baad dinghy123/http_error:fix1010
 docker images
 docker push dinghy123/http_error:fix1010
-Additionl commands
+
+# Additionl commands
 docker rm -f $(docker ps -a -q)
 docker rmi -f $(docker images -q)
