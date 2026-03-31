@@ -1,4 +1,4 @@
-Hands-On – Lab-02 Docker commands based on httpbin
+# Hands-On – Lab-02 Docker commands based on httpbin
 docker run --name http_error -d -p 8990:80 kennethreitz/httpbin
 http://localhost:8990/
 docker stop <container id>
