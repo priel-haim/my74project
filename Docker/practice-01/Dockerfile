@@ -1,6 +1,7 @@
-FROM python:3.10
-WORKDIR /app
+FROM python:3.9-slim
+WORKDIR /myapp
 COPY . .
-RUN pip install --no-cache-dir -r requirements.txt && pip intall flask
+RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 5000
-CMD ["python", "app.py"]
+ENV FLASK_APP=app.py
+CMD ["flask", "run", "--host=0.0.0.0"]
